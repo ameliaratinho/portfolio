@@ -34,11 +34,12 @@ h1{
 h2{
     font-size: 1.5rem;
     font-weight: 500;
-    padding-top: 0;
     padding-bottom: 1rem;
     margin-left: 2rem;
     text-align: center;
 }
+
+
 
 /* ============ Header ============ */
 
@@ -189,6 +190,7 @@ main .hero{
 
 .link-text p{
     padding-top: 1.5rem;
+    padding-bottom: 2rem;
     width: 100%;
 }
 
@@ -217,6 +219,13 @@ main .hero{
 .link-text a:hover::before {
     bottom: 0;
     height: 100%;
+}
+
+.separator{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin: 0 5rem 2rem 5rem;
 }
 /* ============ Contacts ============ */
 
